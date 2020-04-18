@@ -60,5 +60,6 @@ tasks {
   generateGrammarSource {
     maxHeapSize = "64m"
     arguments = arguments + listOf("-visitor", "-long-messages", "-package", "it.maltoni.parsing")
+    outputDirectory = File("$buildDir/generated-src/antlr/main/it/maltoni/parsing/")
   }
 }
