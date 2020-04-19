@@ -1,6 +1,11 @@
-# ANTLR4 Tutorial - Parsing Markup
+# ANTLR4-Java Tutorial - Parsing Markup
 
 We are defining a sort of BBCode markup, with tags delimited by square brackets.
+
+Project set up following Java Setup section of the [ANTLR Mega Tutorial](https://tomassetti.me/antlr-mega-tutorial/).
+Reference to original repo at: <https://github.com/unosviluppatore/antlr-mega-tutorial>.
+
+The project can be built and run with ```gradle run``` and JUnit test can be run with ```gradle test```.
 
 ## Parsing Markup
 
